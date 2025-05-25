@@ -5,4 +5,7 @@ def count(i, n):
         print(i, end=" ")
         return count(i + 1, n)
     
+def rev_count(i, n):
+    if i == 0:
+        retun
 print(count(1, 10))
