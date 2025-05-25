@@ -5,7 +5,7 @@ public class Recura {
 
     public static void count(int i, int n) {
         if (i > n) return;
-        System.out.print(i, " ");
+        System.out.print(i + " ");
         count(i + 1, n);
     }
     public static void main(String[] args) {
