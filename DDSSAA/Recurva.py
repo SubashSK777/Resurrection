@@ -2,6 +2,6 @@ def recurve1(n):
     if n == 0:
         return 1
     else:
-        return recurve1(n - 1)
+        return recurve1(n - 1) + n
     
-recurve1(10)
+print(recurve1(10))
