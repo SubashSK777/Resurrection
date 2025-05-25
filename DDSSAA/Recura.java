@@ -8,6 +8,6 @@ public class Recura {
         }
     }
     public static void main(String[] args) {
-        
+        System.out.println(recusive1(10));
     }
 }
