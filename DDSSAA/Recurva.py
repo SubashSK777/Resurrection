@@ -3,3 +3,5 @@ def recurve1(n):
         return 1
     else:
         return recurve1(n - 1)
+    
+recurve1(10)
