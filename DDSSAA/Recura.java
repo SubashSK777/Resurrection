@@ -7,7 +7,8 @@ public class Recura {
 
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in)
+        Scanner sc = new Scanner(System.in);
         System.out.println(count(1, n));
+        int n = sc.
     }
 }
