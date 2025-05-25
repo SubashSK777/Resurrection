@@ -7,5 +7,7 @@ def count(i, n):
     
 def rev_count(i, n):
     if i == 0:
-        retun
-print(count(1, 10))
+        return
+    else:
+        print
+count(1, 10)
