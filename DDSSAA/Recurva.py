@@ -1,5 +1,5 @@
 def count(i, n):
-    if i  n:
+    if i > n:
         return
     else:
         print(i, end=" ")
