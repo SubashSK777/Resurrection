@@ -19,9 +19,32 @@ public class Recura {
         return n + sum_n(n - 1);
     }
 
+    public static int factorial(int n){
+        if (n == 0) return 1;
+        return factorial(n - 1) * n;
+    }
+
+    public static int fibonacci(int n){
+        if (n <= 1) return n;
+        return fibonacci(n - 1) + fibonacci(n - 2);
+    }
+
+    public static int fibonacci_seq(int n){
+        if (n <= 1) return n;
+        return fibonacci_seq(n - 1) + fibonacci_seq(n - 2);
+    } 
+
     public static void main(String[] args) {
         // count(1, 10);
         // rev_count(10);
-        System.out.print(sum_n(10));
+        // System.out.print(sum_n(10));
+        // System.out.println(factorial(10));
+        // System.out.println(fibonacci(10));
+        // fibonacci_seq(10);
+        // for (int i = 0; i <= 10; i ++) {
+        //     System.out.print(fibonacci_seq(i) + " ");
+        // }
+
+        
     }
 }
