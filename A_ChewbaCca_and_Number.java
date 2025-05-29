@@ -8,9 +8,9 @@ public class A_ChewbaCca_and_Number {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < s.length(); i++){
             int d = s.charAt(i) - '0';
-
+            int comp 
             if (i == 0 && d == 0) {
-                
+
             }
         }
 
