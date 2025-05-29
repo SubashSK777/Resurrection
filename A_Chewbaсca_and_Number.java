@@ -1,10 +1,11 @@
 
 import java.util.Scanner;
 
-public class A_Chewbaсca_and_Number{
+public class A_Chewbacca_and_Number {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String s = sc.nextLine()
+        String s = sc.nextLine();
+        System.out.println(s);
 
     }
 }
