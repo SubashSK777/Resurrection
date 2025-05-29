@@ -8,6 +8,8 @@ public class A_The_New_Year_Meeting_Friends {
         int y = sc.nextInt();
         int z = sc.nextInt();
 
-        int
+        int mini = Math.min(x, Math.min(y, z));
+        int maxi = Math.max(x, Math.max(y, z));
+        int avg = (mini + maxi) / 2;
     }
 }
