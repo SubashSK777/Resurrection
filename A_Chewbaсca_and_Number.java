@@ -1,5 +1,7 @@
 public class A_Chewbaсca_and_Number{
     public static void main(String[] args) {
-        char s = ''
+        String s = "50";
+        int d = s - "'7'";
+
     }
 }
