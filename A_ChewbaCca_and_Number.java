@@ -7,7 +7,9 @@ public class A_ChewbaCca_and_Number {
         String s = sc.nextLine();
         
         for (int i = 0; i < s.length(); i++) {
-            
+            if (s.charAt(0) == 9) {
+                
+            }
         }
 
     }
