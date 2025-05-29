@@ -11,8 +11,9 @@ public class A_ChewbaCca_and_Number {
             int comp = 9 - d;
 
             if (i == 0 && d == 0) sb.append(d);
-            
+            sb.append(Math.min(comp, d));
         }
+        System.out.println(sb);
 
     }
 }
