@@ -8,7 +8,8 @@ class  A_Bit {
         Scanner sc = new Scanner(System.in);
         for (int i = 0; i < 2; i++) {
             String s = sc.nextLine();
-            
+            if (s.contains("++")) A++;
+            else A--;
         }
     }
 }
