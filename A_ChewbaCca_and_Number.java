@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class A_ChewbacCa_and_Number {
+public class A_Chewbacca_and_Number {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
@@ -10,7 +10,7 @@ public class A_ChewbacCa_and_Number {
             int d = s.charAt(i) - '0';
             int comp = 9 - d;
 
-            if (i == 0 && d == 0) sb.append(d);
+            if (i == 0 && comp == 0) sb.append(d);
             else sb.append(Math.min(comp, d));
         }
         System.out.println(sb);
