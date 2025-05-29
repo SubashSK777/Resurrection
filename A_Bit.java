@@ -6,7 +6,7 @@ class  A_Bit {
         int A = 0;
 
         Scanner sc = new Scanner(System.in);
-        int n =
+        int n = 
         for (int i = 0; i < 2; i++) {
             String s = sc.nextLine();
             if (s.contains("++")) A++;
