@@ -9,7 +9,9 @@ public class A_ChewbaCca_and_Number {
         for (int i = 0; i < s.length(); i++){
             int d = s.charAt(i) - '0';
 
-            System.out.println(d);
+            if (i == 0 && d == 0) {
+                
+            }
         }
 
     }
