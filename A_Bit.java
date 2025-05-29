@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-class  A_Bit {
+public class A_Bit {
     public static void main(String[] args) {
         int A = 0;
 
