@@ -4,4 +4,5 @@ for i in range(len(s)):
     d = int(s[i])
     f = 9 - d
     
-    print(f)
+    arr[i] = d
+    print("".joinarr)
