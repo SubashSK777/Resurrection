@@ -12,6 +12,6 @@ public class A_The_New_Year_Meeting_Friends {
         int maxi = Math.max(x, Math.max(y, z));
         int avg = (mini + maxi) / 2;
 
-        int dist = abs()
+        int dist = Math.abs(mini - avg) + Math.abs()
     }
 }
