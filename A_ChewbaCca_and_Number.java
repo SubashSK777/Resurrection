@@ -6,7 +6,9 @@ public class A_ChewbaCca_and_Number {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
         
-        for (char c : )
+        for (int i = 0; i < s.length(); i++) {
+            
+        }
 
     }
 }
