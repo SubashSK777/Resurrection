@@ -9,6 +9,8 @@ class  A_Bit {
 
         int n = sc.nextInt();
 
+        sc.nextLine();
+
         for (int i = 0; i < n; i++) {
             String s = sc.nextLine();
             if (s.contains("++")) A++;
