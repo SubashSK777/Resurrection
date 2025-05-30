@@ -9,7 +9,11 @@ public class Summer {
         String line = br.readLine();
         String[] part = line.split(" ");
 
-        
+        int a = Integer.parseInt(part[0]);
+        int b = Integer.parseInt(part[1]);
+
+        bw.write(a + b);
+
         bw.flush();
     }
 }
