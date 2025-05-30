@@ -12,7 +12,7 @@ public class Summer {
         int a = Integer.parseInt(part[0]);
         int b = Integer.parseInt(part[1]);
 
-        bw.write(a + b);
+        bw.write(a + b + "\n");
 
         bw.flush();
     }
