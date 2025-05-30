@@ -7,6 +7,7 @@ public class A_Anton_and_Polyhedrons {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         for (int i = 0; i < n; i++) {
+            String s = sc.nextLine();
             
         }
     }
