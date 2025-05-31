@@ -1,5 +1,7 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
     "codex-autocommit.active": true,
-    "codex-autocommit.intervalMinutes": 1
+    "codex-autocommit.intervalMinutes": 1,
+    "autogitcommit.enable": true,
+    "autogitcommit.commitMessage": "commited"
 }
